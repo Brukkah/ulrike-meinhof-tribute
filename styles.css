@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: grey;
+}
+
+.banner {
+    width: 100%;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(./images/Ulrike_Meinhof_als_junge_Journalistin_retuschiert.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 6vh;
+    
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    transition-duration: 0.5s;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color:black;
+    padding: 1vw;
+}
+
+img {
+    padding: 2vh;
+}
+
+figcaption {
+    font-size: 1vh;
+}
+
+.running {
+    padding: 2vh;
+}
+
+#donate {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+}
+
+.running img {
+    width: 75%;
+}
